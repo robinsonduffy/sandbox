@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+  <body>
+    <h1>CORS Test</h1>
+    <script type="text/javascript">
+      fetch('https://api.shopstyle.com/api/v2/products?pid=uid1234-12345678-12&fl=r1147&offset=0&limit=50&fl=b48147')
+        .then(response => {
+          console.log(response.json());
+        });
+    </script>
+  </body>
+  
+</html>
